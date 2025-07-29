@@ -2,25 +2,6 @@
 
 A Java application demonstrating **CRUD (Create, Read, Update, Delete) operations** on a relational database using JDBC, with a clean, modular architecture.
 
-## Project Structure
-
-src/
-└── com/
-└── crudjdbc/
-├── dao/
-│ ├── RestaurantDAO.java
-│ └── UserDAO.java
-├── daoimp/
-│ ├── RestaurantDAOImpl.java
-│ └── UserDAOImpl.java
-├── models/
-│ ├── Restaurant.java
-│ └── User.java
-└── util/
-└── DBConnection.java
-lib/
-└── mysql-connector-j-9.4.0.jar
-
 
 - **dao/**: Interfaces for data access objects (`RestaurantDAO`, `UserDAO`).
 - **daoimp/**: Implementation classes for DAOs (`RestaurantDAOImpl`, `UserDAOImpl`).
