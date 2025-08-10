@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-	private static final String url="jdbc:mysql://localhost:3306/FoodApp";
-	private static final String username="root";
-	private static final String password="root";
+	private static final String url="jdbc:mysql://localhost:3306/Your_Database_Name";
+	private static final String username="Database_Username";
+	private static final String password="Database_password";
 
 	public static Connection getConnection() {
 		Connection connection=null;
